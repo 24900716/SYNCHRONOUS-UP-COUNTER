@@ -1,13 +1,13 @@
-### SYNCHRONOUS-UP-COUNTER
+### NAME:DINESH KARTHIK R
+### REG NO:24900716
+### EXPERIMENT 7: IMPLEMENTATION OF  SYNCHRONOUS UP COUNTER USING VERILOG HDL CODE
+### DATE:05/12/2024
 
-
-**DATE:05/12/2024**
-
-**AIM:**
+### AIM:
 
 To implement 4 bit synchronous up counter and validate functionality.
 
-**SOFTWARE REQUIRED:**
+### SOFTWARE REQUIRED:
 
 Quartus prime
 
@@ -29,11 +29,11 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**TRUTH TABLE**
+### TRUTH TABLE:
 
 ![image](https://github.com/user-attachments/assets/88617279-f023-46ac-9c77-0521cb44b0a6)
 
-**Procedure**
+### Procedure:
 
 1.Initialize the shift register to a known state (e.g., all zeros).
 
@@ -45,7 +45,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 5.Repeat steps 2-4 for each bit you want to input and shift
 
-**PROGRAM**
+### PROGRAM:
 
 Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
@@ -66,15 +66,15 @@ end
 endmodule
 ```
 
-**RTL DIAGRAM**
+### RTL DIAGRAM:
 
 ![image](https://github.com/user-attachments/assets/0e1f10a9-f8fb-4759-9f8c-194eaf2d5cfa)
 
-**TIMING WAVEFORM**
+### TIMING WAVEFORM:
 
 ![image](https://github.com/user-attachments/assets/a566c1a0-b17d-44bf-b842-e8b79e71f0f4)
 
 
-**RESULT**
+### RESULT:
 
 Hence a 4 bit synchronous up counter is implemented correctly
